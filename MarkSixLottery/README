@@ -1,0 +1,20 @@
+=========================
+This MarkSix Lottery Application is designed for Client to buy ticket and Draw is continuously scheduled 
+after defined time(ex: 20 seconds).
+
+Rules and Declaration:
+---------------------
+- Client has to buy ticket in a Defined time frame to be eligible for next draw.
+- Once draw has started then no ticket is alloted.
+- Ticket starts alloted after Draw is finished and winning number is declared.
+- There is Junit test cases to validate the scenarios.
+- And there is command line ticket selling system as well, where Client has to put their name.
+- Each client is assigned Unique number.
+- If the Client wins the draw then he got notification from LotteryStore.
+
+
+This Application is designed in SpringBoot, so you need related environment set up before you run this project.
+
+!!Happy Coding!!
+
+==========================
