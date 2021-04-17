@@ -34,7 +34,7 @@ class MarkSixLotteryApplicationTests {
 		for(int i=1; i <= 20; i++) {
 			clientList.add(executor.submit(()-> {
 				ClientInterface client = mock(Client.class);
-				client.buyTicket();
+				LotteryStore.getInstance().buyLottery(client);
 				return client;
 			}));
 		}
